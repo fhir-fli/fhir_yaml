@@ -1,0 +1,16 @@
+name: fhir_yaml
+description: Supporting a YAML version of FHIR for convenience.
+version: 0.1.0
+homepage: https://www.fhirfli.dev/
+repository: https://github.com/fhir-fli/fhir_primitives
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  yaml: ^3.1.2
+
+dev_dependencies:
+  # dart run import_sorter:main
+  import_sorter: ^4.6.0
+  test: ^1.25.2
